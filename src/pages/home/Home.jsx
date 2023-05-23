@@ -5,6 +5,7 @@ import Header from "../../components/header/Header";
 import Featured from "../../components/featured/Featured";
 import FeaturedProperties from "../../components/featuredProperties/FeaturedProperties";
 import Footer from "../../components/footer/Footer";
+import MailList from "../../components/mailList/MailList";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <div className="homeContainer">
         <Featured />
         <FeaturedProperties />
+        <MailList />
         <Footer />
       </div>
     </div>
